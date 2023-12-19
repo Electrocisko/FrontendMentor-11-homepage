@@ -7,7 +7,7 @@ function Card(props) {
       <img src={props.image} alt="image" className="card-image" />
       <div className="card-item-text">
         <h2>{props.num}</h2>
-        <h3>{props.anchor}</h3>
+        <a className="card-item-anchor">{props.anchor}</a>
         <p>{props.text}</p>
       </div>
 

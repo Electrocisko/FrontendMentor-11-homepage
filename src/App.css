@@ -67,6 +67,10 @@ a:link, a:visited, a:active {
     border: none;
 }
 
+.card-main-paragraph button:hover {
+    background-color: var(--color-Soft-orange);
+}
+
 .aside {
     display: flex;
     flex-direction: column;
@@ -83,8 +87,6 @@ a:link, a:visited, a:active {
 }
 
 .aside a {
-    color: var(--color-Off-white);
-    font-weight:700;
     color: var(--color-Off-white);
     font-weight:700;
 }
@@ -109,10 +111,17 @@ color: var(--color-Grayish-blue);
 font-weight: 700;
 }
 
-.card-item h3 {
+.card-item a {
  font-size: 1.2rem;
  font-weight: 800;
+ text-decoration: none;
+ color: var(--color-Very-dark-blue);
+ cursor: pointer;
     }
+
+.card-item a:hover {
+  color: var(--color-Soft-orange);
+}
 
 .card-item-text {
     padding-left: 20px;
