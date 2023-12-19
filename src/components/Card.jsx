@@ -1,13 +1,14 @@
+/* eslint-disable react/prop-types */
 
 
-function Card() {
+function Card(props) {
   return (
     <div className="card-item">
-      <img src="src/assets/images/image-retro-pcs.jpg" alt="Retro Computer" className="card-image" />
-      <div>
-        <h2>01</h2>
-        <p>Reviving Retro PCs</p>
-        <p>What happens when old PCs are given modern upgrades?</p>
+      <img src={props.image} alt="image" className="card-image" />
+      <div className="card-item-text">
+        <h2>{props.num}</h2>
+        <h3>{props.anchor}</h3>
+        <p>{props.text}</p>
       </div>
 
     </div>
