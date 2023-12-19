@@ -11,9 +11,9 @@ import "./App.css";
 function App() {
   return (
     <>
-    <div className="container mt-5">
+    <div className="container">
       <NavBar />
-      <div className="main-container">
+      <div className="main-container mt-5">
         <div className="main-card">
           <MainCard />
         </div>
