@@ -1,1 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+}
+
+.main-container{
+    height: 630px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 3fr 1fr;
+    gap: 20px;
+}
+
+.main-card{
+    border: solid red 1px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.card-main-text{
+    display: flex;
+}
+ .card-main-title{
+    width: 50%;
+ }
+
+ .card-main-paragraph{
+   width: 50%;
+   margin-left: 20px;
+ }
+
+.aside {
+    border: solid green;
+}
+
+.card-item{
+ display: flex;
+}
+
+.card-image {
+    
+      height: 151px;
+       
+      
+}
+
+.card-left {
+    border: solid blue;
+}
+
+.card-center {
+    border: solid orangered;
+}
+
+.card-right {
+    border: solid violet;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+.nav-link:hover {
+    color:red;
+}
 
