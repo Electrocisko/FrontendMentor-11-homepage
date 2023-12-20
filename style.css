@@ -38,7 +38,7 @@ a:link, a:visited, a:active {
 }
 
 .image-container{
-  background-image: url("/images/image-web-3-desktop.jpg");
+  background-image: url("images/image-web-3-desktop.jpg");
   background-size: cover;
   height: 300px;
 }
