@@ -1,11 +1,7 @@
 function MainCard() {
   return (
     <div>
-      <img
-        src="src/assets/images/image-web-3-desktop.jpg"
-        alt="wood blocks game"
-        width={"100%"}
-      />
+      <div className="image-container"></div>
       <div className="card-main-text mt-4">
         <h1 className="card-main-title">The Bright Future of Web 3.0?</h1>
         <div className="card-main-paragraph">
