@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unknown-property */
 import NavBar from "./components/NavBar";
 import MainCard from "./components/MainCard";
 import Aside from "./components/Aside";
@@ -6,7 +7,6 @@ import Footer from "./components/Footer.jsx";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.js";
 
-import "./App.css";
 
 function App() {
   return (
@@ -14,8 +14,8 @@ function App() {
       <div className="container">
         <NavBar />
         <div className="main-container mt-5">
-          <div className="main-card">
-            <MainCard />
+          <div className="main-card" >
+            <MainCard/>
           </div>
           <aside className="aside">
             <Aside />
