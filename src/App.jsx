@@ -25,7 +25,7 @@ function App() {
               num={"01"}
               anchor={"Reviving Retro PCs"}
               text={"What happens when old PCs are given modern upgrades?"}
-              image={"src/assets/images/image-retro-pcs.jpg"}
+              image={"/images/image-retro-pcs.jpg"}
             />
           </div>
           <div className="card-center">
@@ -33,7 +33,7 @@ function App() {
               num={"02"}
               anchor={"Top 10 Laptops of 2022"}
               text={"Our best picks for various needs and budgets."}
-              image={"src/assets/images/image-top-laptops.jpg"}
+              image={"/images/image-top-laptops.jpg"}
             />
           </div>
           <div className="card-right">
@@ -41,7 +41,7 @@ function App() {
               num={"03"}
               anchor={"The Growth of Gaming"}
               text={"How the pandemic has sparked fresh opportunities."}
-              image={"src/assets/images/image-gaming-growth.jpg"}
+              image={"/images/image-gaming-growth.jpg"}
             />
           </div>
         </div>

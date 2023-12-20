@@ -30,7 +30,7 @@ a:active {
 }
 
 .image-container {
-    background-image: url("src/assets/images/image-web-3-mobile.jpg");
+    background-image: url("/images/image-web-3-mobile.jpg");
     background-size: cover;
     height: 300px;
 }
